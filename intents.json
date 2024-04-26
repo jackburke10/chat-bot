@@ -1,0 +1,39 @@
+{ "intents" : [
+	{ "tag" : "greetings" , 
+	  "patterns" : ["hi", "hello", "wassup", "howdy", "hola", "good day", "salutations", "greetings", "how are you"],
+	  "responses" : ["Hello!  I can help you with your maths revision!  How can I help you today?"]
+	},
+	{ "tag" : "goodbye" , 
+          "patterns" : ["bye", "goodbye", "cya", "see you later", "i am going", "laters", "farewell", "so long"],
+          "responses" : ["Goodbye!  I hope I helped you with some revision ideas today!"]
+        },
+	{ "tag" : "past papers" , 
+          "patterns" : ["exam papers", "past papers", "find papers"],
+          "responses" : ["A great resource for finding exam past papers is on mathsgenie.co.uk, you can filter by exam board!"]
+        },
+        { "tag" : "grade 9 topics" ,
+          "patterns" : ["grade 9 questions", "grade 9 topics", "hardest topics"],
+          "responses" : ["One of my favourite grade 9 topics is Circle Theorem proofs! Search on vectormaths.co.uk!", "One grade 9 topic is Completing the Square! Search on vectormaths.co.uk!", "One grade 9 topic is Quadratic Inequalities! Search on vectormaths.co.uk!"]
+        },
+        { "tag" : "revision ideas" ,
+          "patterns" : ["what should i revise", "what topics should i revise", "what areas should i revise"],
+	  "responses" : ["It really depends on what level you're currently working at!  I can suggest Foundation, Higher or grade 9 topics!"]
+        },
+	{ "tag" : "foundation topics" ,
+          "patterns" : ["foundation topics", "foundation subjects", "foundation areas"],
+          "responses" : ["You can find all the foundation topics on vectormaths.co.uk but some that people struggle with are ratios, percentages and shape transformations."]
+        },
+        { "tag" : "higher topics" ,
+          "patterns" : ["higher topics", "higher subjects", "higher areas"],
+          "responses" : ["You can find all the higher topics on vectormaths.co.uk but some that people struggle with are vectors, surds and algebraic fractions."]
+        },
+        { "tag" : "revision resources" ,
+          "patterns" : ["best resources", "best revision materials", "place to learn", "learning materials"],
+          "responses" : ["My favourite place to learn maths is vectormaths.co.uk :).  Some other great ones are mathsgenie.co.uk, revisionmaths.com or BBC bitesize!"]
+        },
+        { "tag" : "common mistakes" ,
+          "patterns" : ["mistakes everyone makes", "mistakes people make", "common mistakes"],
+          "responses" : ["There are lots of guides of this if you look on Google, including some by exam boards which are very useful.  I would also recommend reading a guide about breaking down more wordy problems which is common in the new syllabus :)."]
+        }
+]
+}
